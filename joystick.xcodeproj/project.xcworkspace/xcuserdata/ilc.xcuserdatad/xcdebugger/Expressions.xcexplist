@@ -3,6 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ViewController.moveView(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view == buttonUpUIImageView">
+            </PersistentString>
+            <PersistentString
+               value = "view">
+            </PersistentString>
+            <PersistentString
+               value = "buttonUpUIImageView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.buildButton(x:y:_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button.viewWithTag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.moveView(to:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -10,14 +32,6 @@
             </PersistentString>
             <PersistentString
                value = "view.frame.size.height ">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "ViewController.didTap(_:):ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "view == buttonUpUIImageView">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -30,16 +44,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ViewController.moveView(_:):ViewController.swift">
+         contextName = "ViewController.didTap(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "view == buttonUpUIImageView">
             </PersistentString>
             <PersistentString
-               value = "view">
-            </PersistentString>
-            <PersistentString
-               value = "buttonUpUIImageView">
+               value = "view. indexPath">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

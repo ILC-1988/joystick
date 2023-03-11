@@ -84,18 +84,18 @@ class ViewController: UIViewController {
     @objc
     private func didTap(_ sender: UIGestureRecognizer) {
         guard let view = sender.view else { return }
-       
-        if view == buttonUpUIImageView {
+        
+        switch view {
+        case buttonUpUIImageView:
             moveView(to: .up)
-        }
-        else if view == buttonDownUIImageView {
+        case buttonDownUIImageView:
             moveView(to: .down)
-        }
-        else if view == buttonRightUIImageView {
+        case buttonRightUIImageView:
             moveView(to: .right)
-        }
-        else if view == buttonLeftUIImageView {
+        case buttonLeftUIImageView:
             moveView(to: .left)
+        default:
+            break
         }
         
     }
